@@ -5,6 +5,7 @@ This project explores and analyzes the Netflix dataset using SQL. It answers ins
 
 ## Dataset
 The data for this project is sourced from the Kaggle dataset:
+
 **Dataset Link:** [Movies Dataset](https://www.kaggle.com/datasets/shivamb/netflix-shows?resource=download)
 
 ## Objectives
@@ -25,23 +26,6 @@ The project aims to:
 - CASE, WITH (CTE), EXTRACT, TO_DATE
 - String functions: TRIM(), UNNEST(), STRING_TO_ARRAY(), SPLIT_PART(), ILIKE, POSITION(), SUBSTRING()
 
-## Schema
-DROP TABLE IF EXISTS netflix;
-CREATE TABLE netflix(
-  show_id VARCHAR(6),
-  type VARCHAR(10),
-  title VARCHAR(150),
-  director VARCHAR(208),
-  casts VARCHAR(1000),
-  country VARCHAR(150),
-  date_added VARCHAR(50),
-  release_year INT,
-  rating VARCHAR(10),
-  duration VARCHAR(15),
-  listed_in VARCHAR(100),
-  description VARCHAR(250)
-);
-
 ## Queries Solved
 - Problem 1. Count number of movies and TV shows.
 - Problem 2. Most common rating for each content type.
@@ -53,9 +37,9 @@ CREATE TABLE netflix(
 - Problem 8. TV shows with more than 5 seasons.
 - Problem 9. Count of content in each genre.
 - Problem 10.Indian content trends:
-          i) Year-wise content added from India
-          ii) Average content added per year
-          iii) Contribution % per year
+         - i) Year-wise content added from India
+         - ii) Average content added per year
+         - iii) Contribution % per year
 - Problem 11. All movies that are documentaries.
 - Problem 12. Content without a listed director.
 - Problem 13. Movies featuring 'Salman Khan' in the last 10 years.
