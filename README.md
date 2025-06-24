@@ -37,9 +37,9 @@ The project aims to:
 - Problem 8. TV shows with more than 5 seasons.
 - Problem 9. Count of content in each genre.
 - Problem 10.Indian content trends:
-         - i) Year-wise content added from India
-         - ii) Average content added per year
-         - iii) Contribution % per year
+          i) Year-wise content added from India
+          ii) Average content added per year
+          iii) Contribution % per year
 - Problem 11. All movies that are documentaries.
 - Problem 12. Content without a listed director.
 - Problem 13. Movies featuring 'Salman Khan' in the last 10 years.
